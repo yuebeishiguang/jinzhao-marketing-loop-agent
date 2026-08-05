@@ -1,0 +1,21 @@
+{
+  "_comment": "券配置示例（虚构数据）。coupons 集合单条记录结构。",
+  "shopId": "shop_demo_001",
+  "type": "friend",
+  "title": "好友券 · 满100减15",
+  "rule": {
+    "threshold": 100,
+    "discount": 15,
+    "tiers": [
+      { "threshold": 100, "discount": 15 },
+      { "threshold": 200, "discount": 35 },
+      { "threshold": 300, "discount": 60 }
+    ]
+  },
+  "validDays": 30,
+  "weeklyLimitPerUser": 1,
+  "status": "active",
+  "source": "agent_applied",
+  "agentLogId": "log_demo_20260801",
+  "createdAt": "2026-08-01T20:35:00.000Z"
+}

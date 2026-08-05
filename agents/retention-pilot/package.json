@@ -1,0 +1,9 @@
+{
+  "name": "applyPilot",
+  "version": "1.0.0",
+  "description": "审批闸门：老板一键照办，执行中枢待办建议（发券进顾客账户）",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

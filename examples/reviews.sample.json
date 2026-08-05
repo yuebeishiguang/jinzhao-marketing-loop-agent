@@ -1,0 +1,29 @@
+{
+  "_comment": "评价样例（全虚构）。reviews 集合记录结构，注意：只存 openid 哈希，不收姓名手机号。",
+  "records": [
+    {
+      "shopId": "shop_demo_001",
+      "userIdHash": "u_8f3a2c",
+      "rating": 5,
+      "text": "红烧狮子头很好吃，分量足，周末带爸妈再来",
+      "channel": "table_qr",
+      "createdAt": "2026-08-01T12:20:00.000Z"
+    },
+    {
+      "shopId": "shop_demo_001",
+      "userIdHash": "u_1b9e77",
+      "rating": 2,
+      "text": "等了四十分钟才上菜，太久了",
+      "channel": "table_qr",
+      "createdAt": "2026-08-01T13:05:00.000Z"
+    },
+    {
+      "shopId": "shop_demo_001",
+      "userIdHash": "u_5d41f0",
+      "rating": 4,
+      "text": "环境不错，就是停车不太方便",
+      "channel": "friend_share",
+      "createdAt": "2026-08-01T19:42:00.000Z"
+    }
+  ]
+}

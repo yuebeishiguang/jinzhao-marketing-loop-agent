@@ -1,0 +1,24 @@
+{
+  "_comment": "agentLog 样例（虚构）。中枢每次运行留痕：输入摘要→决策场景→输出方案→Token 用量→审批状态。",
+  "shopId": "shop_demo_001",
+  "runAt": "2026-08-01T20:30:00.000Z",
+  "dataWindow": "today",
+  "inputSummary": {
+    "reviewCount": 3,
+    "avgRating": 3.7,
+    "goodRate": 0.67,
+    "keywords": ["上菜慢", "分量足", "停车难"]
+  },
+  "scene": "差评安抚",
+  "sceneReason": "差评关键词「上菜慢」命中，且近7日首次出现",
+  "proposal": {
+    "action": "issue_apology_coupon",
+    "couponRule": { "threshold": 0, "discount": 10 },
+    "targetUserCount": 1,
+    "advice": "高峰期建议出菜超时 25 分钟主动送小菜，差评用户发 10 元无门槛道歉券"
+  },
+  "llm": { "model": "kimi-k2.6", "tokens": 1240, "cost": 0.005 },
+  "status": "pending",
+  "appliedAt": null,
+  "appliedBy": null
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dailyPilot",
+  "version": "1.0.0",
+  "description": "餐饮经营智能体调度中枢：每晚自主感知-分析-决策-生成-推送-留痕",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}
