@@ -1,9 +1,0 @@
-{
-  "name": "effect-review",
-  "version": "1.0.0",
-  "description": "效果复盘：Agent 自我验证昨日策略效果（券核销率+差评顾客动向），纯规则零成本",
-  "main": "index.js",
-  "dependencies": {
-    "wx-server-sdk": "3.0.5-beta.1"
-  }
-}
