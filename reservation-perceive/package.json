@@ -1,9 +1,0 @@
-{
-  "name": "reservation-perceive",
-  "version": "1.0.0",
-  "description": "预约感知：Agent 自主读取预约数据源（桌数/点菜榜/爽约），规则化备菜提醒",
-  "main": "index.js",
-  "dependencies": {
-    "wx-server-sdk": "3.0.5-beta.1"
-  }
-}
