@@ -1,0 +1,15 @@
+{
+  "_comment": "effect-review 组件的输出样例（脱敏）。昨日发了 20 张券核销 6 张，2 条差评顾客没追加投诉。",
+  "code": 0,
+  "review": {
+    "issued": 20,
+    "redeemed": 6,
+    "rate": 30,
+    "badCount": 2,
+    "followBad": 0,
+    "followGood": 0,
+    "text": "昨日复盘：发券20张·已核销6张(30%)；差评2条·顾客未追加投诉"
+  },
+  "pushText": "昨发20券·核销30%",
+  "_usage": "review.text 塞进当日经营建议第一条；pushText 进订阅消息 thing 字段；整个 review 对象写进 agentLog.yesterdayReview 留痕。"
+}
