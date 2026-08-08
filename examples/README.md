@@ -59,7 +59,7 @@
 | 字段 | 含义 |
 |---|---|
 | name / phone | 联系人 / 联系电话（顾客勾选《用户服务协议》《隐私政策》后主动填写；演示已打码） |
-| date / time / scene / people | 到店日期 / 时间 / 大厅或包厢 / 人数 |
+| date / time / scene / people | 到店日期 / 时间 / `hall` 堂食 或 `box` 包厢 / 人数 |
 | dishes | 预点菜品数组（name + count） |
 | note | 备注（过内容安全校验） |
 | status | `pending` 待确认 / `confirmed` 已确认 / `arrived` 已到店 / `noshow` 未到店 / `cancelled` 已取消 |
